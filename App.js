@@ -1,13 +1,20 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Image } from 'react-native';
+import Judul from './Component/Judul';
 
 export default class App extends React.Component {
   render() {
     return (
-      <View style={styles.container}>
+      <View style={StyleSheet.container}>
+      <Judul/>
         <Text>Nama : Bunga Fadhillah</Text>
         <Text>Kelas : XI RPL 3</Text>
         <Text>Absen : 12</Text>
+
+        <Image
+        style={{width: 300, height: 300}}
+        source={require('./aku.jpg')}
+        />
       </View>
     );
   }
