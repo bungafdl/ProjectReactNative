@@ -11,9 +11,9 @@ class Judul extends React.Component{
 }
 const salon ={
 	judul:{
-		color: '#f00',
+		color: 'blue',
 		fontsize: 50,
-		backgroundColor: '#727272'
+		backgroundColor: 'white'
 	}
 }
 export default Judul;
